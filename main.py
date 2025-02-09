@@ -47,7 +47,7 @@ def channel(freq):
     else:
         return -1
 
-## eseguo la scansione delle reti wi-fi vicine ogni 5 minuti, focalizzandomi poi
+## eseguo la scansione delle reti wi-fi vicine ogni 2 minuti, focalizzandomi poi
 ## sul mio SSID per monitorare la qualità del segnale. Lo scopo è avvisare
 ## l'utente se il suo segnale sta degradando sotto una certa soglia
 def filtra_ssid(profile):
